@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Open Sans";
+}
+body {
+  height: 1100px;
+}
+
+.task-number {
+  color: #5300a1;
+}
+
+.user-profile {
+  width: 180px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.user-profile:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border: 1px solid lightgray;
+  transition: 0.3s;
+}
+
+.todo {
+  width: 200px;
+  font-weight: bold;
+  background-color: rgb(255, 100, 100);
+}
+
+.adder {
+  font-weight: bold;
+}
+
+.product-card {
+  width: 250px;
+  height: 382px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(204, 204, 204);
+}
+
+.product-card:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: 0.3s;
+}
+
+.title-price {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-left: 8px;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 8px;
+}
